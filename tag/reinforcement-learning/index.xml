@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reinforcement Learning | DEV SONI</title>
-    <link>https://example.com/tag/reinforcement-learning/</link>
-      <atom:link href="https://example.com/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/tag/reinforcement-learning/</link>
+      <atom:link href="https://www.devsonni.com/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Reinforcement Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Reinforcement Learning</title>
-      <link>https://example.com/tag/reinforcement-learning/</link>
+      <link>https://www.devsonni.com/tag/reinforcement-learning/</link>
     </image>
     
     <item>
-      <title>Learning NMPC with Deep Reinforcement Learning</title>
-      <link>https://example.com/project/example-copy/</link>
+      <title>Learning NMPC with Q-Learning-Reinforcement Learning algorithm</title>
+      <link>https://www.devsonni.com/project/learning-nmpc-with-q-learning-reinforcement-learning-algorithm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy/</guid>
-      <description></description>
+      <guid>https://www.devsonni.com/project/learning-nmpc-with-q-learning-reinforcement-learning-algorithm/</guid>
+      <description>&lt;p&gt;Check-out the attached PDF and Slides for more details.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automation | DEV SONI</title>
-    <link>https://example.com/tag/automation/</link>
-      <atom:link href="https://example.com/tag/automation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/tag/automation/</link>
+      <atom:link href="https://www.devsonni.com/tag/automation/index.xml" rel="self" type="application/rss+xml" />
     <description>Automation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Automation</title>
-      <link>https://example.com/tag/automation/</link>
+      <link>https://www.devsonni.com/tag/automation/</link>
     </image>
     
     <item>
       <title>Community Plastic Extrusion and Compression Molding Machine</title>
-      <link>https://example.com/project/example-copy-5-copy/</link>
+      <link>https://www.devsonni.com/project/plastic-machines/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-5-copy/</guid>
+      <guid>https://www.devsonni.com/project/plastic-machines/</guid>
       <description>&lt;h1 id=&#34;-motto&#34;&gt;🎯 Motto&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;World is filled with a plethora of waste plastics, and only ~33% of plastic gets recycled: motto behind the development of these machines is to recycle plastic waste at the place where it forms means decentralization of the recycling process, with the use of these machines a community can recycle their plastic waste; can produce robust and purposeful products.&lt;/li&gt;

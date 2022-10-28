@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | DEV SONI</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/project/</link>
+      <atom:link href="https://www.devsonni.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://www.devsonni.com/project/</link>
     </image>
     
     <item>
       <title>Powered Lower Limb Exoskeleton</title>
-      <link>https://example.com/project/example/</link>
+      <link>https://www.devsonni.com/project/powered-lower-limb-exoskeleton/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example/</guid>
+      <guid>https://www.devsonni.com/project/powered-lower-limb-exoskeleton/</guid>
       <description>&lt;hr&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -24,33 +24,33 @@
 &lt;/div&gt;
 
 &lt;hr&gt;
-&lt;h2 id=&#34;this-project-was-build-for-the-robofest20-competition-which-was-organized-by-gujcost-gujarat-council-on-science-and-technology&#34;&gt;&lt;strong&gt;This project was build for the ROBOFEST2.0 competition which was organized by GUJCOST (Gujarat Council On Science and Technology)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;this-project-was-built-for-the-robofest20-competition-which-was-organized-by-gujcost-gujarat-council-on-science-and-technology&#34;&gt;&lt;strong&gt;This project was built for the ROBOFEST2.0 competition which was organized by GUJCOST (Gujarat Council On Science and Technology)&lt;/strong&gt;&lt;/h2&gt;
 &lt;h3 id=&#34;competition-was-conducted-in-three-rounds&#34;&gt;Competition was conducted in three rounds:&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Idealization round (won &lt;strong&gt;50,000 INR&lt;/strong&gt; for presenting solid ideas for building exoskeleton robot &amp;amp; for building proof of concept).&lt;/li&gt;
-&lt;li&gt;Proof of concept round (won &lt;strong&gt;2,00,000 INR&lt;/strong&gt; for building proper working proof of concept &amp;amp; for building final prototype).&lt;/li&gt;
+&lt;li&gt;Idealization round (won &lt;strong&gt;50,000 INR&lt;/strong&gt; for presenting solid ideas for building an exoskeleton robot &amp;amp; for building proof of concept).&lt;/li&gt;
+&lt;li&gt;Proof of concept round (won &lt;strong&gt;2,00,000 INR&lt;/strong&gt; for building a proper working proof of concept &amp;amp; for building the final prototype).&lt;/li&gt;
 &lt;li&gt;Finale (won &lt;strong&gt;5,00,000 INR&lt;/strong&gt; ~ 6,600 USD as a &lt;strong&gt;winning prize&lt;/strong&gt;).&lt;/li&gt;
-&lt;li&gt;In short, we avail total of &lt;strong&gt;7,50,000 INR&lt;/strong&gt; in this project.&lt;/li&gt;
+&lt;li&gt;In short, we avail a total of &lt;strong&gt;7,50,000 INR&lt;/strong&gt; in this project.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Human gait trajectories was analysed &amp;amp; plotted with the use of &lt;a href=&#34;https://www.kinovea.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;kinovea&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
-&lt;li&gt;Torque requirements of each lower-limb joints was calculated with the use of musculoskeletal model in &lt;a href=&#34;https://opensim.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;opensim&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
-&lt;li&gt;According to torque requirements &lt;strong&gt;DC planetary geared motors&lt;/strong&gt; was selected and &lt;strong&gt;spur gears&lt;/strong&gt; was designed.&lt;/li&gt;
-&lt;li&gt;Whole body with the gears was designed in &lt;strong&gt;solidworks&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Six proportional derivative and integral (&lt;strong&gt;PID&lt;/strong&gt;) controllers was coded on &lt;strong&gt;arduino&lt;/strong&gt; micro-controller in a way that follows the angle inputs and feedback was given by &lt;strong&gt;encoders&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;All system parameters such as PID constants, speed of exoskeleton, &amp;amp; etc. was tuned by trial and error method.&lt;/li&gt;
+&lt;li&gt;Human gait trajectories were analyzed &amp;amp; plotted with the use of &lt;a href=&#34;https://www.kinovea.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;kinovea&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;Torque requirements of each lower-limb joint were calculated with the use of the musculoskeletal model in &lt;a href=&#34;https://opensim.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;OpenSim&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;According to torque requirements &lt;strong&gt;DC planetary geared motors&lt;/strong&gt; were selected and &lt;strong&gt;spur gears&lt;/strong&gt; were designed.&lt;/li&gt;
+&lt;li&gt;Whole-body with the gears was designed in &lt;strong&gt;SolidWorks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Six proportional derivative and integral (&lt;strong&gt;PID&lt;/strong&gt;) controllers were coded on &lt;strong&gt;Arduino&lt;/strong&gt; micro-controller in a way that follows the angle inputs and feedback was given by &lt;strong&gt;encoders&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;All system parameters such as PID constants, speed of exoskeleton &amp;amp;, etc. was tuned by trial and error method.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;currently-robot-is-showcasing-at-indias-first--only-robotics-gallery-in-ahmadabad-gujarat&#34;&gt;Currently, Robot is showcasing at India&amp;rsquo;s first &amp;amp; only Robotics gallery in Ahmadabad, Gujarat.&lt;/h3&gt;
-&lt;h3 id=&#34;watch-linked-video-to-see-robot-in-working&#34;&gt;Watch linked video to see robot in working.&lt;/h3&gt;
+&lt;h3 id=&#34;watch-the-linked-video-to-see-the-robot-working&#34;&gt;Watch the linked video to see the robot working.&lt;/h3&gt;
 </description>
     </item>
     
     <item>
       <title>Nonlinear Model Predictive Controller for Target Tracking</title>
-      <link>https://example.com/project/example-copy-3/</link>
+      <link>https://www.devsonni.com/project/nonlinear-model-predictive-controller-for-target-tracking/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-3/</guid>
+      <guid>https://www.devsonni.com/project/nonlinear-model-predictive-controller-for-target-tracking/</guid>
       <description>&lt;h1 id=&#34;nmpc-implementation-&#34;&gt;NMPC Implementation 🕹️&lt;/h1&gt;
 &lt;p&gt;👉 For simple intiution Model predictive control uses the system model to do prediction of future states of system for some predicted optimal inputs in prediction horizon, and applys only one input and does the same process again to compansate the unmeasured noise or disturbance in system.   &lt;br&gt;
 👉 In this instance our system is unmaned arieal vehicle and it&amp;rsquo;s following the target which is mobile vehicle.    &lt;br&gt;
@@ -82,7 +82,7 @@
                /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp 400w,
                /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_be065c0fc844398d12e06059df78c15d.webp 760w,
                /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
+               src=&#34;https://www.devsonni.com/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -111,7 +111,7 @@
                /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp 400w,
                /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_749a6404ce8d70ac41d6cf653a83dc6f.webp 760w,
                /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
+               src=&#34;https://www.devsonni.com/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -142,7 +142,7 @@
                /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp 400w,
                /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_c6675bed51fa786ae43e68afe245c802.webp 760w,
                /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -171,7 +171,7 @@
                /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp 400w,
                /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_32ac4668bb53c71455c4a4beaaf61051.webp 760w,
                /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -200,7 +200,7 @@
                /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp 400w,
                /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_dc249dfd78c6e8ab03b6a548e608f93b.webp 760w,
                /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -230,7 +230,7 @@
                /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp 400w,
                /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_9c98ed885bc682939a61d0553c141f96.webp 760w,
                /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
+               src=&#34;https://www.devsonni.com/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -260,7 +260,7 @@
                /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp 400w,
                /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_3486d17a05b4304ad75e6eea88797640.webp 760w,
                /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
+               src=&#34;https://www.devsonni.com/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -289,7 +289,7 @@
                /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp 400w,
                /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1d98664fe8dbcda45ca7ccef8aa6130f.webp 760w,
                /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://example.com/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
+               src=&#34;https://www.devsonni.com/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -307,9 +307,9 @@ First           | Second
     
     <item>
       <title>Controlling Quadrotor with PID Controller</title>
-      <link>https://example.com/project/example-copy-5/</link>
+      <link>https://www.devsonni.com/project/controlling-quadrotor-with-pid-controller/</link>
       <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-5/</guid>
+      <guid>https://www.devsonni.com/project/controlling-quadrotor-with-pid-controller/</guid>
       <description>&lt;hr&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -322,9 +322,9 @@ First           | Second
     
     <item>
       <title>Factory Automation with Robot Operating System (ROS)</title>
-      <link>https://example.com/project/example-copy-4/</link>
+      <link>https://www.devsonni.com/project/factory-automation-with-robot-operating-system-ros/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-4/</guid>
+      <guid>https://www.devsonni.com/project/factory-automation-with-robot-operating-system-ros/</guid>
       <description>&lt;h1 id=&#34;factory-automation-by-using-rosrobot-operating-system&#34;&gt;💥Factory automation by using ROS(Robot Operating System)🤖&lt;/h1&gt;
 &lt;h2 id=&#34;-this-project-is-mainly-divided-into-3-4-chunks&#34;&gt;👇 This project is mainly divided into 3-4 chunks.&lt;/h2&gt;
 &lt;p&gt;🤝 Pub-Sub mechanism of ROS.  &lt;br&gt;
@@ -349,13 +349,13 @@ First           | Second
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-pub-sub-mechanism&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Pub_Sub.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Pub-Sub Mechanism&#34;
+           src=&#34;https://www.devsonni.com/media/Pub_Sub.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      Pub-Sub Mechanism
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-navigation-package-of-ros&#34;&gt;🧭 Navigation package of ROS.&lt;/h3&gt;
 
@@ -374,13 +374,13 @@ First           | Second
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-ros-navigation-stack&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Navigation%20%281%29.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ROS Navigation stack&#34;
+           src=&#34;https://www.devsonni.com/media/Navigation%20%281%29.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      ROS Navigation stack
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-manipulation-by-moveit-ros-package&#34;&gt;🎛️ Manipulation by Moveit ROS package.&lt;/h3&gt;
 
@@ -399,13 +399,13 @@ First           | Second
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-manipulation-with-moveit-package&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Manipulation%20%281%29.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Manipulation with MoveIt package&#34;
+           src=&#34;https://www.devsonni.com/media/Manipulation%20%281%29.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      Manipulation with MoveIt package
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-final-factory-automation-using-all-these-chunks&#34;&gt;🙌 Final factory Automation using all these chunks.&lt;/h3&gt;
 &lt;p&gt;📽️refer this video for watching whole simulation on youtube.&lt;/p&gt;
@@ -422,9 +422,9 @@ First           | Second
     
     <item>
       <title>Community Plastic Extrusion and Compression Molding Machine</title>
-      <link>https://example.com/project/example-copy-5-copy/</link>
+      <link>https://www.devsonni.com/project/plastic-machines/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-5-copy/</guid>
+      <guid>https://www.devsonni.com/project/plastic-machines/</guid>
       <description>&lt;h1 id=&#34;-motto&#34;&gt;🎯 Motto&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;World is filled with a plethora of waste plastics, and only ~33% of plastic gets recycled: motto behind the development of these machines is to recycle plastic waste at the place where it forms means decentralization of the recycling process, with the use of these machines a community can recycle their plastic waste; can produce robust and purposeful products.&lt;/li&gt;
@@ -634,32 +634,12 @@ First           | Second
     </item>
     
     <item>
-      <title>Learning NMPC with Deep Reinforcement Learning</title>
-      <link>https://example.com/project/example-copy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Learning NMPC with Q-Learning-Reinforcement Learning algorithm</title>
-      <link>https://example.com/project/example-copy-2/</link>
+      <link>https://www.devsonni.com/project/learning-nmpc-with-q-learning-reinforcement-learning-algorithm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-2/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://www.devsonni.com/project/learning-nmpc-with-q-learning-reinforcement-learning-algorithm/</guid>
+      <description>&lt;p&gt;Check-out the attached PDF and Slides for more details.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Motion Planning Algorithm</title>
-      <link>https://example.com/project/example-copy-5-copy-copy/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-5-copy-copy/</guid>
-      <description></description>
     </item>
     
   </channel>

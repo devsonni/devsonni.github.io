@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robot Operating System (ROS) | DEV SONI</title>
-    <link>https://example.com/tag/robot-operating-system-ros/</link>
-      <atom:link href="https://example.com/tag/robot-operating-system-ros/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/tag/robot-operating-system-ros/</link>
+      <atom:link href="https://www.devsonni.com/tag/robot-operating-system-ros/index.xml" rel="self" type="application/rss+xml" />
     <description>Robot Operating System (ROS)</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Robot Operating System (ROS)</title>
-      <link>https://example.com/tag/robot-operating-system-ros/</link>
+      <link>https://www.devsonni.com/tag/robot-operating-system-ros/</link>
     </image>
     
     <item>
       <title>Factory Automation with Robot Operating System (ROS)</title>
-      <link>https://example.com/project/example-copy-4/</link>
+      <link>https://www.devsonni.com/project/factory-automation-with-robot-operating-system-ros/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/example-copy-4/</guid>
+      <guid>https://www.devsonni.com/project/factory-automation-with-robot-operating-system-ros/</guid>
       <description>&lt;h1 id=&#34;factory-automation-by-using-rosrobot-operating-system&#34;&gt;💥Factory automation by using ROS(Robot Operating System)🤖&lt;/h1&gt;
 &lt;h2 id=&#34;-this-project-is-mainly-divided-into-3-4-chunks&#34;&gt;👇 This project is mainly divided into 3-4 chunks.&lt;/h2&gt;
 &lt;p&gt;🤝 Pub-Sub mechanism of ROS.  &lt;br&gt;
@@ -41,13 +41,13 @@
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-pub-sub-mechanism&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Pub_Sub.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Pub-Sub Mechanism&#34;
+           src=&#34;https://www.devsonni.com/media/Pub_Sub.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      Pub-Sub Mechanism
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-navigation-package-of-ros&#34;&gt;🧭 Navigation package of ROS.&lt;/h3&gt;
 
@@ -66,13 +66,13 @@
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-ros-navigation-stack&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Navigation%20%281%29.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ROS Navigation stack&#34;
+           src=&#34;https://www.devsonni.com/media/Navigation%20%281%29.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      ROS Navigation stack
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-manipulation-by-moveit-ros-package&#34;&gt;🎛️ Manipulation by Moveit ROS package.&lt;/h3&gt;
 
@@ -91,13 +91,13 @@
 
 
 
-&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+&lt;figure  id=&#34;figure-manipulation-with-moveit-package&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
-           src=&#34;https://example.com/media/Manipulation%20%281%29.gif&#34;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Manipulation with MoveIt package&#34;
+           src=&#34;https://www.devsonni.com/media/Manipulation%20%281%29.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
-      Smooth Tracking with Gimbal
+      Manipulation with MoveIt package
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;-final-factory-automation-using-all-these-chunks&#34;&gt;🙌 Final factory Automation using all these chunks.&lt;/h3&gt;
 &lt;p&gt;📽️refer this video for watching whole simulation on youtube.&lt;/p&gt;
