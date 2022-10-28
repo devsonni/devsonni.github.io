@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robot Operating System (ROS) | DEV SONI</title>
+    <link>https://example.com/tag/robot-operating-system-ros/</link>
+      <atom:link href="https://example.com/tag/robot-operating-system-ros/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robot Operating System (ROS)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>Robot Operating System (ROS)</title>
+      <link>https://example.com/tag/robot-operating-system-ros/</link>
+    </image>
+    
+    <item>
+      <title>Factory Automation with Robot Operating System (ROS)</title>
+      <link>https://example.com/project/example-copy-4/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-4/</guid>
+      <description>&lt;h1 id=&#34;factory-automation-by-using-rosrobot-operating-system&#34;&gt;💥Factory automation by using ROS(Robot Operating System)🤖&lt;/h1&gt;
+&lt;h2 id=&#34;-this-project-is-mainly-divided-into-3-4-chunks&#34;&gt;👇 This project is mainly divided into 3-4 chunks.&lt;/h2&gt;
+&lt;p&gt;🤝 Pub-Sub mechanism of ROS.  &lt;br&gt;
+🧭 Navigation package of ROS.  &lt;br&gt;
+🎛️ Manipulation by Moveit ROS package.  &lt;br&gt;
+🙌 Final factory Automation using all these chunks.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-pub-sub-mechanism&#34;&gt;🤝 Pub-Sub Mechanism&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Pub_Sub.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-navigation-package-of-ros&#34;&gt;🧭 Navigation package of ROS.&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Navigation%20%281%29.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-manipulation-by-moveit-ros-package&#34;&gt;🎛️ Manipulation by Moveit ROS package.&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Manipulation%20%281%29.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-final-factory-automation-using-all-these-chunks&#34;&gt;🙌 Final factory Automation using all these chunks.&lt;/h3&gt;
+&lt;p&gt;📽️refer this video for watching whole simulation on youtube.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Wp_6LamoRL0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;heading-1&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-one-can-find-course-details-here&#34;&gt;🔍 One can find course details here.&lt;/h3&gt;
+&lt;p&gt;📍 &lt;a href=&#34;https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hello (Real) World with ROS – Robot Operating System&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Gelasio"
+
+# Optional Google font URL
+google_fonts = "family=Gelasio"
+
+# Font families
+heading_font = "Gelasio"
+body_font = "Gelasio"
+nav_font = "Gelasio"
+mono_font = "Gelasio"

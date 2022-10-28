@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Alice"
+
+# Optional Google font URL
+google_fonts = "family=Alice"
+
+# Font families
+heading_font = "Alice"
+body_font = "Alice"
+nav_font = "Alice"
+mono_font = "Alice"

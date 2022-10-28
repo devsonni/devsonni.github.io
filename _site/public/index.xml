@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DEV SONI</title>
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>DEV SONI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>DEV SONI</title>
+      <link>https://example.com/</link>
+    </image>
+    
+    <item>
+      <title>Learning-based NMPC Framework for Car Racing Cinematography using Fixed-Wing UAV</title>
+      <link>https://example.com/publication/example/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/example/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powered Lower Limb Exoskeleton</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;hr&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/J-kVJl1uBLg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;this-project-was-build-for-the-robofest20-competition-which-was-organized-by-gujcost-gujarat-council-on-science-and-technology&#34;&gt;&lt;strong&gt;This project was build for the ROBOFEST2.0 competition which was organized by GUJCOST (Gujarat Council On Science and Technology)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;competition-was-conducted-in-three-rounds&#34;&gt;Competition was conducted in three rounds:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Idealization round (won &lt;strong&gt;50,000 INR&lt;/strong&gt; for presenting solid ideas for building exoskeleton robot &amp;amp; for building proof of concept).&lt;/li&gt;
+&lt;li&gt;Proof of concept round (won &lt;strong&gt;2,00,000 INR&lt;/strong&gt; for building proper working proof of concept &amp;amp; for building final prototype).&lt;/li&gt;
+&lt;li&gt;Finale (won &lt;strong&gt;5,00,000 INR&lt;/strong&gt; ~ 6,600 USD as a &lt;strong&gt;winning prize&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;In short, we avail total of &lt;strong&gt;7,50,000 INR&lt;/strong&gt; in this project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Human gait trajectories was analysed &amp;amp; plotted with the use of &lt;a href=&#34;https://www.kinovea.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;kinovea&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;Torque requirements of each lower-limb joints was calculated with the use of musculoskeletal model in &lt;a href=&#34;https://opensim.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;opensim&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;According to torque requirements &lt;strong&gt;DC planetary geared motors&lt;/strong&gt; was selected and &lt;strong&gt;spur gears&lt;/strong&gt; was designed.&lt;/li&gt;
+&lt;li&gt;Whole body with the gears was designed in &lt;strong&gt;solidworks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Six proportional derivative and integral (&lt;strong&gt;PID&lt;/strong&gt;) controllers was coded on &lt;strong&gt;arduino&lt;/strong&gt; micro-controller in a way that follows the angle inputs and feedback was given by &lt;strong&gt;encoders&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;All system parameters such as PID constants, speed of exoskeleton, &amp;amp; etc. was tuned by trial and error method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;currently-robot-is-showcasing-at-indias-first--only-robotics-gallery-in-ahmadabad-gujarat&#34;&gt;Currently, Robot is showcasing at India&amp;rsquo;s first &amp;amp; only Robotics gallery in Ahmadabad, Gujarat.&lt;/h3&gt;
+&lt;h3 id=&#34;watch-linked-video-to-see-robot-in-working&#34;&gt;Watch linked video to see robot in working.&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nonlinear Model Predictive Controller for Target Tracking</title>
+      <link>https://example.com/project/example-copy-3/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-3/</guid>
+      <description>&lt;h1 id=&#34;nmpc-implementation-&#34;&gt;NMPC Implementation 🕹️&lt;/h1&gt;
+&lt;p&gt;👉 For simple intiution Model predictive control uses the system model to do prediction of future states of system for some predicted optimal inputs in prediction horizon, and applys only one input and does the same process again to compansate the unmeasured noise or disturbance in system.   &lt;br&gt;
+👉 In this instance our system is unmaned arieal vehicle and it&amp;rsquo;s following the target which is mobile vehicle.    &lt;br&gt;
+👉 The cost function that sould be minimize for predicted inputs is made by the distance between UAV and target which is moving.&lt;br&gt;
+👉 This code uses the CasADi framework to code NMPC.&lt;/p&gt;
+&lt;p&gt;✨ &amp;ldquo;State predictive model of target&amp;rdquo; folder of repository has the targets model which feds for the UAV as reference(a moveing reference) and it gives the cost value from the initial point of UAV.   &lt;br&gt;
+✨ &amp;ldquo;NMPC_TT&amp;rdquo; has the code of NMPC.&lt;/p&gt;
+&lt;h2 id=&#34;-uav-tracks-the-target-illustration-&#34;&gt;✈️ UAV tracks the target illustration 🔥&lt;/h2&gt;
+&lt;h3 id=&#34;-uav-without-gimbal&#34;&gt;📌 UAV without Gimbal&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp 400w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_be065c0fc844398d12e06059df78c15d.webp 760w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      UAV Traking Target without Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp 400w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_749a6404ce8d70ac41d6cf653a83dc6f.webp 760w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      UAV Traking Target without Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-uav-with-3-dof-gimbal&#34;&gt;📌 UAV with 3-DoF Gimbal&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp 400w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_c6675bed51fa786ae43e68afe245c802.webp 760w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp 400w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_32ac4668bb53c71455c4a4beaaf61051.webp 760w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp 400w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_dc249dfd78c6e8ab03b6a548e608f93b.webp 760w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;-without-obstacle-avoidance&#34;&gt;🏢🏗️ Without Obstacle Avoidance&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-without-obstacle-avoidance-uav-is-colliding-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Without Obstacle Avoidance (UAV is Colliding with Obstacles)&#34; srcset=&#34;
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp 400w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_9c98ed885bc682939a61d0553c141f96.webp 760w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Without Obstacle Avoidance (UAV is Colliding with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;-with-obstacle-avoidance&#34;&gt;🏢🏗️ With Obstacle Avoidance&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp 400w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_3486d17a05b4304ad75e6eea88797640.webp 760w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      With Obstacle Avoidance (Avoiding Collusion with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp 400w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1d98664fe8dbcda45ca7ccef8aa6130f.webp 760w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      With Obstacle Avoidance (Avoiding Collusion with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-this-code-is-source-code-of-this-paper-&#34;&gt;🔗 This code is source code of this paper 📝&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9476710&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NMPC-based UAV 3D Target Tracking In The Presence Of Obstacles and Visibility Constraints&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+First           | Second
+----------------|----------------------
+&lt;img align=&#34;left&#34; height=&#34;500&#34; width=&#34;600&#34; src=&#34;https://github.com/devsonni/MPC-Implementation/blob/main/gif/TargetTrack6.jpg&#34;&gt;|&lt;img align=&#34;left&#34; height=&#34;500&#34; width=&#34;600&#34; src=&#34;https://github.com/devsonni/MPC-Implementation/blob/main/gif/TargetTrack6.jpg&#34;&gt; --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Controlling Quadrotor with PID Controller</title>
+      <link>https://example.com/project/example-copy-5/</link>
+      <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-5/</guid>
+      <description>&lt;hr&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2QQ5qjsZ9E4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Factory Automation with Robot Operating System (ROS)</title>
+      <link>https://example.com/project/example-copy-4/</link>
+      <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-4/</guid>
+      <description>&lt;h1 id=&#34;factory-automation-by-using-rosrobot-operating-system&#34;&gt;💥Factory automation by using ROS(Robot Operating System)🤖&lt;/h1&gt;
+&lt;h2 id=&#34;-this-project-is-mainly-divided-into-3-4-chunks&#34;&gt;👇 This project is mainly divided into 3-4 chunks.&lt;/h2&gt;
+&lt;p&gt;🤝 Pub-Sub mechanism of ROS.  &lt;br&gt;
+🧭 Navigation package of ROS.  &lt;br&gt;
+🎛️ Manipulation by Moveit ROS package.  &lt;br&gt;
+🙌 Final factory Automation using all these chunks.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-pub-sub-mechanism&#34;&gt;🤝 Pub-Sub Mechanism&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Pub_Sub.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-navigation-package-of-ros&#34;&gt;🧭 Navigation package of ROS.&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Navigation%20%281%29.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-manipulation-by-moveit-ros-package&#34;&gt;🎛️ Manipulation by Moveit ROS package.&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34;
+           src=&#34;https://example.com/media/Manipulation%20%281%29.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-final-factory-automation-using-all-these-chunks&#34;&gt;🙌 Final factory Automation using all these chunks.&lt;/h3&gt;
+&lt;p&gt;📽️refer this video for watching whole simulation on youtube.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Wp_6LamoRL0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;heading-1&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-one-can-find-course-details-here&#34;&gt;🔍 One can find course details here.&lt;/h3&gt;
+&lt;p&gt;📍 &lt;a href=&#34;https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hello (Real) World with ROS – Robot Operating System&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://example.com/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
+&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-template-is-mobile-first-with-a-responsive-design-to-ensure-that-your-site-looks-stunning-on-every-device&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/master/academic.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The template is mobile first with a responsive design to ensure that your site looks stunning on every device.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomplans&#34;&gt;&lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/plans/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://example.com/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://example.com/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://example.com/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Community Plastic Extrusion and Compression Molding Machine</title>
+      <link>https://example.com/project/example-copy-5-copy/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-5-copy/</guid>
+      <description>&lt;h1 id=&#34;-motto&#34;&gt;🎯 Motto&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;World is filled with a plethora of waste plastics, and only ~33% of plastic gets recycled: motto behind the development of these machines is to recycle plastic waste at the place where it forms means decentralization of the recycling process, with the use of these machines a community can recycle their plastic waste; can produce robust and purposeful products.&lt;/li&gt;
+&lt;li&gt;This project was supported by SSIP (Student Start-up and Innovation Policy) of the Gujarat Government and received 83,899 ₹ grand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-extrusion-molding-machine&#34;&gt;⚙️ Extrusion Molding Machine&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-3d-model&#34;&gt;🌐 3D Model&lt;/h2&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;400&#34; src=&#34;https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&amp;name=Extrusion+Molding+machine&amp;model_id=118643&amp;portal=b2b&amp;noAutoload=false&amp;autoRotate=false&amp;hideMenu=false&amp;topColor=%23FFFFFF&amp;bottomColor=%23ffffff&amp;cameraParams=false&amp;varsettransfer=&#34; frameborder=&#34;0&#34; id=&#34;EmbeddedView-Iframe-118643&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;-technical-information&#34;&gt;📓 Technical Information&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Specification&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📓 Type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Single Screw&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price new material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹80,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚖️ Weight (inc frame)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;110 kg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📦 Dimension&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1500 x 600 x 1550 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Power (W)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;5 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔌 Voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;230V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚡️ AMP&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;16A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;♻️ Input Flake Size&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Small&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Screw diameter&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Length of screw (mm)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;790 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Effective screw length&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;600 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Rated Motor Power&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2.2 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Motor Type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3 ph. 440V +/- 5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Gearbox type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Worm gearbox - 7.5 reduction ratio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Geared Motor output Torque&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;~163 Nm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Gear shaft Output speed&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;192 RPM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Motor shaft&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;28 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Heating zones&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Heating power: max.&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;images-of-extrusion-machine&#34;&gt;Images of Extrusion Machine&lt;/h2&gt;
+&lt;img src=&#34;https://i.imgur.com/6WyfGpz.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/ZzEhEJy.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;     
+&lt;img src=&#34;https://i.imgur.com/0Q5LSXk.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/ZzEhEJy.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt; 
+&lt;img src=&#34;https://i.imgur.com/rno091s.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/a4Tojh6.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt; 
+&lt;img src=&#34;https://i.imgur.com/hWrjUfs.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/t7EOeZh.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;      
+&lt;h1 id=&#34;-compression-molding-machine&#34;&gt;⚙️ Compression Molding Machine&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;The compression machine is basically an electric kitchen oven to heat the plastic, and a compression mechanism (a carjack) to apply pressure to your mold. The process is slower than the extrusion machines but it allows for larger molds to be used. It can be used to create raw material, like sheets or shapes that can be further worked on to make new products and gives a specific flake-like look to the plastic (which looks amazing!).&lt;/p&gt;
+&lt;h2 id=&#34;-technical-information-1&#34;&gt;📓 Technical Information&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;📓 Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Compression Machine&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price new material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹5000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price scrap material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹3000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚖️ Weight&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30 kg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📦 Dimensions&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;500 x  590 x 1590 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Compression&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;5t car jack&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔌 Voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;230V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚡️ AMP&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;16A (3 heating coils)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;♻️ Input Flake Size&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Medium, Small&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-3d-model-1&#34;&gt;🌐 3D Model&lt;/h2&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;500&#34; src=&#34;https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&amp;name=Compression+Basic+V2.0&amp;model_id=96647&amp;portal=b2b&amp;noAutoload=false&amp;autoRotate=false&amp;hideMenu=false&amp;topColor=%23dde7ed&amp;bottomColor=%23ffffff&amp;cameraParams=false&amp;varsettransfer=&#34; frameborder=&#34;0&#34; id=&#34;EmbeddedView-Iframe-96647&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;-electronic-box&#34;&gt;⚡️ Electronic box&lt;/h2&gt;
+&lt;p&gt;Explanation of the electric components inside this machine. More information and schematics can be found in the download-kit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;PID Controller:&lt;/b&gt; the brains of the machine where you can set your desired temperatures. It will send power to the heaters until PV (point variable) matches the SV (set value). It does this using readings from the thermocouple and the SSR.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SSR:&lt;/b&gt; the Solid State Relay is an electronic ‘switch’ that opens and closes depending on the signal it receives (from the PID).&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Thermocouple:&lt;/b&gt; basically a thermometer.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Band heater:&lt;/b&gt; heating element that fits around a pipe.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Power switch:&lt;/b&gt; mechanical switch.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Power cable:&lt;/b&gt; common household power cable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-tricks-used-while-making&#34;&gt;🛠 Tricks used while making&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Looked around for second hand or scrap oven, and re-wired all heating coils through SSR and PID controller.&lt;/li&gt;
+&lt;li&gt;Insulated oven with the use of rock-wool.&lt;/li&gt;
+&lt;li&gt;A k-type thermocouple sensor mounted inside of the oven as for feedback.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-input--output&#34;&gt;♻️ Input &amp;amp; Output&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Type:&lt;/b&gt; HDPE, LDPE, PP, PS&lt;br&gt;
+&lt;b&gt;Output:&lt;/b&gt; 1 part per 40 minutes. Depends largely on the mold.&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;how-to-operate-the-compression&#34;&gt;How to operate the compression&lt;/h3&gt;
+&lt;h3 id=&#34;startup&#34;&gt;Startup&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Turn the oven on and set the desired temperature.&lt;/li&gt;
+&lt;li&gt;Wait 20 minutes for the desired temperature to be reached.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;production&#34;&gt;Production&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Weigh the required amount of material for your mold + 20%.&lt;/li&gt;
+&lt;li&gt;Fill the mold with material.&lt;/li&gt;
+&lt;li&gt;Put the upper part of the mold on the plastic.&lt;/li&gt;
+&lt;li&gt;Put the mold in the oven.&lt;/li&gt;
+&lt;li&gt;Leave it for 15 minutes.&lt;/li&gt;
+&lt;li&gt;Turn the mold 180° in the oven.&lt;/li&gt;
+&lt;li&gt;Leave it for another 15 minutes.&lt;/li&gt;
+&lt;li&gt;Compress the mold.&lt;/li&gt;
+&lt;li&gt;Take the mold out of the oven.&lt;/li&gt;
+&lt;li&gt;Put clamps on the mold to keep the pressure.&lt;/li&gt;
+&lt;li&gt;Place another mold in the oven.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;cooldown&#34;&gt;Cooldown&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Clean the inside of the oven from molten plastic.&lt;/li&gt;
+&lt;li&gt;Tips &amp;amp; tricks while using&lt;/li&gt;
+&lt;li&gt;It is advisable to heat up the plastic until melted and then apply pressure.&lt;/li&gt;
+&lt;li&gt;Don’t be hasty, make sure the plastic is fully melted in the mold.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;images-of-compression-machine&#34;&gt;Images of Compression Machine&lt;/h2&gt;
+&lt;img src=&#34;https://i.imgur.com/Zwvsyj6.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/jIdz9qM.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/HKfs89y.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/rnWoTs3.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/aCIhP95.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://example.com/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning NMPC with Deep Reinforcement Learning</title>
+      <link>https://example.com/project/example-copy/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning NMPC with Q-Learning-Reinforcement Learning algorithm</title>
+      <link>https://example.com/project/example-copy-2/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-2/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motion Planning Algorithm</title>
+      <link>https://example.com/project/example-copy-5-copy-copy/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-5-copy-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/updates/</guid>
+      <description>&lt;p&gt;KOn bhai Basanti?
+yes&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

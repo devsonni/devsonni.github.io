@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | DEV SONI</title>
+    <link>https://example.com/publication-type/1/</link>
+      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>1</title>
+      <link>https://example.com/publication-type/1/</link>
+    </image>
+    
+    <item>
+      <title>Learning-based NMPC Framework for Car Racing Cinematography using Fixed-Wing UAV</title>
+      <link>https://example.com/publication/example/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

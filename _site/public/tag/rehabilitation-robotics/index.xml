@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rehabilitation Robotics | DEV SONI</title>
+    <link>https://example.com/tag/rehabilitation-robotics/</link>
+      <atom:link href="https://example.com/tag/rehabilitation-robotics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rehabilitation Robotics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>Rehabilitation Robotics</title>
+      <link>https://example.com/tag/rehabilitation-robotics/</link>
+    </image>
+    
+    <item>
+      <title>Powered Lower Limb Exoskeleton</title>
+      <link>https://example.com/project/example/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example/</guid>
+      <description>&lt;hr&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/J-kVJl1uBLg&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;this-project-was-build-for-the-robofest20-competition-which-was-organized-by-gujcost-gujarat-council-on-science-and-technology&#34;&gt;&lt;strong&gt;This project was build for the ROBOFEST2.0 competition which was organized by GUJCOST (Gujarat Council On Science and Technology)&lt;/strong&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;competition-was-conducted-in-three-rounds&#34;&gt;Competition was conducted in three rounds:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Idealization round (won &lt;strong&gt;50,000 INR&lt;/strong&gt; for presenting solid ideas for building exoskeleton robot &amp;amp; for building proof of concept).&lt;/li&gt;
+&lt;li&gt;Proof of concept round (won &lt;strong&gt;2,00,000 INR&lt;/strong&gt; for building proper working proof of concept &amp;amp; for building final prototype).&lt;/li&gt;
+&lt;li&gt;Finale (won &lt;strong&gt;5,00,000 INR&lt;/strong&gt; ~ 6,600 USD as a &lt;strong&gt;winning prize&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;In short, we avail total of &lt;strong&gt;7,50,000 INR&lt;/strong&gt; in this project.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Human gait trajectories was analysed &amp;amp; plotted with the use of &lt;a href=&#34;https://www.kinovea.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;kinovea&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;Torque requirements of each lower-limb joints was calculated with the use of musculoskeletal model in &lt;a href=&#34;https://opensim.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;opensim&lt;/strong&gt;&lt;/a&gt; software.&lt;/li&gt;
+&lt;li&gt;According to torque requirements &lt;strong&gt;DC planetary geared motors&lt;/strong&gt; was selected and &lt;strong&gt;spur gears&lt;/strong&gt; was designed.&lt;/li&gt;
+&lt;li&gt;Whole body with the gears was designed in &lt;strong&gt;solidworks&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Six proportional derivative and integral (&lt;strong&gt;PID&lt;/strong&gt;) controllers was coded on &lt;strong&gt;arduino&lt;/strong&gt; micro-controller in a way that follows the angle inputs and feedback was given by &lt;strong&gt;encoders&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;All system parameters such as PID constants, speed of exoskeleton, &amp;amp; etc. was tuned by trial and error method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;currently-robot-is-showcasing-at-indias-first--only-robotics-gallery-in-ahmadabad-gujarat&#34;&gt;Currently, Robot is showcasing at India&amp;rsquo;s first &amp;amp; only Robotics gallery in Ahmadabad, Gujarat.&lt;/h3&gt;
+&lt;h3 id=&#34;watch-linked-video-to-see-robot-in-working&#34;&gt;Watch linked video to see robot in working.&lt;/h3&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

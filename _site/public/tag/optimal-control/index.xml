@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimal Control | DEV SONI</title>
+    <link>https://example.com/tag/optimal-control/</link>
+      <atom:link href="https://example.com/tag/optimal-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>Optimal Control</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>Optimal Control</title>
+      <link>https://example.com/tag/optimal-control/</link>
+    </image>
+    
+    <item>
+      <title>Nonlinear Model Predictive Controller for Target Tracking</title>
+      <link>https://example.com/project/example-copy-3/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-3/</guid>
+      <description>&lt;h1 id=&#34;nmpc-implementation-&#34;&gt;NMPC Implementation 🕹️&lt;/h1&gt;
+&lt;p&gt;👉 For simple intiution Model predictive control uses the system model to do prediction of future states of system for some predicted optimal inputs in prediction horizon, and applys only one input and does the same process again to compansate the unmeasured noise or disturbance in system.   &lt;br&gt;
+👉 In this instance our system is unmaned arieal vehicle and it&amp;rsquo;s following the target which is mobile vehicle.    &lt;br&gt;
+👉 The cost function that sould be minimize for predicted inputs is made by the distance between UAV and target which is moving.&lt;br&gt;
+👉 This code uses the CasADi framework to code NMPC.&lt;/p&gt;
+&lt;p&gt;✨ &amp;ldquo;State predictive model of target&amp;rdquo; folder of repository has the targets model which feds for the UAV as reference(a moveing reference) and it gives the cost value from the initial point of UAV.   &lt;br&gt;
+✨ &amp;ldquo;NMPC_TT&amp;rdquo; has the code of NMPC.&lt;/p&gt;
+&lt;h2 id=&#34;-uav-tracks-the-target-illustration-&#34;&gt;✈️ UAV tracks the target illustration 🔥&lt;/h2&gt;
+&lt;h3 id=&#34;-uav-without-gimbal&#34;&gt;📌 UAV without Gimbal&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp 400w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_be065c0fc844398d12e06059df78c15d.webp 760w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      UAV Traking Target without Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp 400w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_749a6404ce8d70ac41d6cf653a83dc6f.webp 760w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      UAV Traking Target without Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;-uav-with-3-dof-gimbal&#34;&gt;📌 UAV with 3-DoF Gimbal&lt;/h3&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp 400w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_c6675bed51fa786ae43e68afe245c802.webp 760w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp 400w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_32ac4668bb53c71455c4a4beaaf61051.webp 760w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp 400w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_dc249dfd78c6e8ab03b6a548e608f93b.webp 760w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Smooth Tracking with Gimbal
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;-without-obstacle-avoidance&#34;&gt;🏢🏗️ Without Obstacle Avoidance&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-without-obstacle-avoidance-uav-is-colliding-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Without Obstacle Avoidance (UAV is Colliding with Obstacles)&#34; srcset=&#34;
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp 400w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_9c98ed885bc682939a61d0553c141f96.webp 760w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Without Obstacle Avoidance (UAV is Colliding with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;-with-obstacle-avoidance&#34;&gt;🏢🏗️ With Obstacle Avoidance&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp 400w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_3486d17a05b4304ad75e6eea88797640.webp 760w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      With Obstacle Avoidance (Avoiding Collusion with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp 400w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1d98664fe8dbcda45ca7ccef8aa6130f.webp 760w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      With Obstacle Avoidance (Avoiding Collusion with Obstacles)
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;-this-code-is-source-code-of-this-paper-&#34;&gt;🔗 This code is source code of this paper 📝&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://ieeexplore.ieee.org/document/9476710&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NMPC-based UAV 3D Target Tracking In The Presence Of Obstacles and Visibility Constraints&lt;/a&gt;&lt;/p&gt;
+&lt;!-- 
+First           | Second
+----------------|----------------------
+&lt;img align=&#34;left&#34; height=&#34;500&#34; width=&#34;600&#34; src=&#34;https://github.com/devsonni/MPC-Implementation/blob/main/gif/TargetTrack6.jpg&#34;&gt;|&lt;img align=&#34;left&#34; height=&#34;500&#34; width=&#34;600&#34; src=&#34;https://github.com/devsonni/MPC-Implementation/blob/main/gif/TargetTrack6.jpg&#34;&gt; --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

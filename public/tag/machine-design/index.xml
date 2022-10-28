@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Design | DEV SONI</title>
+    <link>https://example.com/tag/machine-design/</link>
+      <atom:link href="https://example.com/tag/machine-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Design</title>
+      <link>https://example.com/tag/machine-design/</link>
+    </image>
+    
+    <item>
+      <title>Community Plastic Extrusion and Compression Molding Machine</title>
+      <link>https://example.com/project/example-copy-5-copy/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/example-copy-5-copy/</guid>
+      <description>&lt;h1 id=&#34;-motto&#34;&gt;🎯 Motto&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;World is filled with a plethora of waste plastics, and only ~33% of plastic gets recycled: motto behind the development of these machines is to recycle plastic waste at the place where it forms means decentralization of the recycling process, with the use of these machines a community can recycle their plastic waste; can produce robust and purposeful products.&lt;/li&gt;
+&lt;li&gt;This project was supported by SSIP (Student Start-up and Innovation Policy) of the Gujarat Government and received 83,899 ₹ grand.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;-extrusion-molding-machine&#34;&gt;⚙️ Extrusion Molding Machine&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-3d-model&#34;&gt;🌐 3D Model&lt;/h2&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;400&#34; src=&#34;https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&amp;name=Extrusion+Molding+machine&amp;model_id=118643&amp;portal=b2b&amp;noAutoload=false&amp;autoRotate=false&amp;hideMenu=false&amp;topColor=%23FFFFFF&amp;bottomColor=%23ffffff&amp;cameraParams=false&amp;varsettransfer=&#34; frameborder=&#34;0&#34; id=&#34;EmbeddedView-Iframe-118643&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;-technical-information&#34;&gt;📓 Technical Information&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Specification&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📓 Type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Single Screw&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price new material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹80,000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚖️ Weight (inc frame)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;110 kg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📦 Dimension&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1500 x 600 x 1550 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Power (W)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;5 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔌 Voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;230V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚡️ AMP&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;16A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;♻️ Input Flake Size&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Small&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Screw diameter&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Length of screw (mm)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;790 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Effective screw length&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;600 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔩 Rated Motor Power&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2.2 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Motor Type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3 ph. 440V +/- 5%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Gearbox type&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Worm gearbox - 7.5 reduction ratio&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Geared Motor output Torque&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;~163 Nm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Gear shaft Output speed&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;192 RPM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Motor shaft&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;28 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Heating zones&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Heating power: max.&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;2 kW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;images-of-extrusion-machine&#34;&gt;Images of Extrusion Machine&lt;/h2&gt;
+&lt;img src=&#34;https://i.imgur.com/6WyfGpz.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/ZzEhEJy.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;     
+&lt;img src=&#34;https://i.imgur.com/0Q5LSXk.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/ZzEhEJy.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt; 
+&lt;img src=&#34;https://i.imgur.com/rno091s.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/a4Tojh6.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt; 
+&lt;img src=&#34;https://i.imgur.com/hWrjUfs.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/t7EOeZh.jpg?1&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;      
+&lt;h1 id=&#34;-compression-molding-machine&#34;&gt;⚙️ Compression Molding Machine&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;The compression machine is basically an electric kitchen oven to heat the plastic, and a compression mechanism (a carjack) to apply pressure to your mold. The process is slower than the extrusion machines but it allows for larger molds to be used. It can be used to create raw material, like sheets or shapes that can be further worked on to make new products and gives a specific flake-like look to the plastic (which looks amazing!).&lt;/p&gt;
+&lt;h2 id=&#34;-technical-information-1&#34;&gt;📓 Technical Information&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;📓 Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Compression Machine&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price new material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹5000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;💰 Price scrap material in INR&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;+/- ₹3000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚖️ Weight&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30 kg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;📦 Dimensions&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;500 x  590 x 1590 mm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚙️ Compression&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;5t car jack&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;🔌 Voltage&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;230V&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;⚡️ AMP&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;16A (3 heating coils)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;♻️ Input Flake Size&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Medium, Small&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;-3d-model-1&#34;&gt;🌐 3D Model&lt;/h2&gt;
+&lt;iframe width=&#34;800&#34; height=&#34;500&#34; src=&#34;https://b2b.partcommunity.com/community/partcloud/embedded.html?route=embedded-viewer&amp;name=Compression+Basic+V2.0&amp;model_id=96647&amp;portal=b2b&amp;noAutoload=false&amp;autoRotate=false&amp;hideMenu=false&amp;topColor=%23dde7ed&amp;bottomColor=%23ffffff&amp;cameraParams=false&amp;varsettransfer=&#34; frameborder=&#34;0&#34; id=&#34;EmbeddedView-Iframe-96647&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;-electronic-box&#34;&gt;⚡️ Electronic box&lt;/h2&gt;
+&lt;p&gt;Explanation of the electric components inside this machine. More information and schematics can be found in the download-kit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;PID Controller:&lt;/b&gt; the brains of the machine where you can set your desired temperatures. It will send power to the heaters until PV (point variable) matches the SV (set value). It does this using readings from the thermocouple and the SSR.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;SSR:&lt;/b&gt; the Solid State Relay is an electronic ‘switch’ that opens and closes depending on the signal it receives (from the PID).&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Thermocouple:&lt;/b&gt; basically a thermometer.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Band heater:&lt;/b&gt; heating element that fits around a pipe.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Power switch:&lt;/b&gt; mechanical switch.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Power cable:&lt;/b&gt; common household power cable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-tricks-used-while-making&#34;&gt;🛠 Tricks used while making&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Looked around for second hand or scrap oven, and re-wired all heating coils through SSR and PID controller.&lt;/li&gt;
+&lt;li&gt;Insulated oven with the use of rock-wool.&lt;/li&gt;
+&lt;li&gt;A k-type thermocouple sensor mounted inside of the oven as for feedback.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-input--output&#34;&gt;♻️ Input &amp;amp; Output&lt;/h2&gt;
+&lt;p&gt;&lt;b&gt;Type:&lt;/b&gt; HDPE, LDPE, PP, PS&lt;br&gt;
+&lt;b&gt;Output:&lt;/b&gt; 1 part per 40 minutes. Depends largely on the mold.&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;how-to-operate-the-compression&#34;&gt;How to operate the compression&lt;/h3&gt;
+&lt;h3 id=&#34;startup&#34;&gt;Startup&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Turn the oven on and set the desired temperature.&lt;/li&gt;
+&lt;li&gt;Wait 20 minutes for the desired temperature to be reached.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;production&#34;&gt;Production&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Weigh the required amount of material for your mold + 20%.&lt;/li&gt;
+&lt;li&gt;Fill the mold with material.&lt;/li&gt;
+&lt;li&gt;Put the upper part of the mold on the plastic.&lt;/li&gt;
+&lt;li&gt;Put the mold in the oven.&lt;/li&gt;
+&lt;li&gt;Leave it for 15 minutes.&lt;/li&gt;
+&lt;li&gt;Turn the mold 180° in the oven.&lt;/li&gt;
+&lt;li&gt;Leave it for another 15 minutes.&lt;/li&gt;
+&lt;li&gt;Compress the mold.&lt;/li&gt;
+&lt;li&gt;Take the mold out of the oven.&lt;/li&gt;
+&lt;li&gt;Put clamps on the mold to keep the pressure.&lt;/li&gt;
+&lt;li&gt;Place another mold in the oven.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;cooldown&#34;&gt;Cooldown&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Clean the inside of the oven from molten plastic.&lt;/li&gt;
+&lt;li&gt;Tips &amp;amp; tricks while using&lt;/li&gt;
+&lt;li&gt;It is advisable to heat up the plastic until melted and then apply pressure.&lt;/li&gt;
+&lt;li&gt;Don’t be hasty, make sure the plastic is fully melted in the mold.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;images-of-compression-machine&#34;&gt;Images of Compression Machine&lt;/h2&gt;
+&lt;img src=&#34;https://i.imgur.com/Zwvsyj6.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/jIdz9qM.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/HKfs89y.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;left&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/rnWoTs3.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+&lt;img src=&#34;https://i.imgur.com/aCIhP95.jpg&#34; title=&#34;source: imgur.com&#34; width =&#34;350&#34; height=&#34;300&#34; align=&#34;right&#34;&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

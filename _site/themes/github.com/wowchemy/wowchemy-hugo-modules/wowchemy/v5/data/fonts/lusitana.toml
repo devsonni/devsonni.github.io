@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Lusitana"
+
+# Optional Google font URL
+google_fonts = "family=Lusitana"
+
+# Font families
+heading_font = "Lusitana"
+body_font = "Lusitana"
+nav_font = "Lusitana"
+mono_font = "Lusitana"
