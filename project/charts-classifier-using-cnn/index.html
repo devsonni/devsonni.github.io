@@ -1,0 +1,2040 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lusitana&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Dev Soni" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Convolution Neural Network architecture was designed to classify chats data into one of five categories (Vertical Bar, Horizontal Bar, Dot Line, Line, Pie). Fine tunned VGG16 model for this task. Implement GradCAM to visualize activation areas in images." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.devsonni.com/project/charts-classifier-using-cnn/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.31ab81dc746a39c479f21635e89d02e7.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://www.devsonni.com/project/charts-classifier-using-cnn/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@wowchemy" />
+    <meta property="twitter:creator" content="@wowchemy" />
+  
+  <meta property="og:site_name" content="DS" />
+  <meta property="og:url" content="https://www.devsonni.com/project/charts-classifier-using-cnn/" />
+  <meta property="og:title" content="Charts Classifier Using CNN | DS" />
+  <meta property="og:description" content="Convolution Neural Network architecture was designed to classify chats data into one of five categories (Vertical Bar, Horizontal Bar, Dot Line, Line, Pie). Fine tunned VGG16 model for this task. Implement GradCAM to visualize activation areas in images." /><meta property="og:image" content="https://www.devsonni.com/project/charts-classifier-using-cnn/featured.jpg" />
+    <meta property="twitter:image" content="https://www.devsonni.com/project/charts-classifier-using-cnn/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-09-01T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-09-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.devsonni.com/project/charts-classifier-using-cnn/"
+  },
+  "headline": "Charts Classifier Using CNN",
+  
+  "image": [
+    "https://www.devsonni.com/project/charts-classifier-using-cnn/featured.jpg"
+  ],
+  
+  "datePublished": "2022-09-01T00:00:00Z",
+  "dateModified": "2022-09-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Dev Soni"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "DS",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Convolution Neural Network architecture was designed to classify chats data into one of five categories (Vertical Bar, Horizontal Bar, Dot Line, Line, Pie). Fine tunned VGG16 model for this task. Implement GradCAM to visualize activation areas in images."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Charts Classifier Using CNN | DS</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="5702bab1492bb4833dbab1a39a0a1515" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">DS</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">DS</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#updates"><span>Updates</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#accomplishments"><span>Courses</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Charts Classifier Using CNN</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 1, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/devsonni/Chart-Classification-Using-CNN----Keras" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 774px;">
+  <div style="position: relative">
+    <img src="/project/charts-classifier-using-cnn/featured_hu68e28380195455428e14925b5974b509_56092_720x2500_fit_q75_h2_lanczos.webp" width="720" height="774" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by Dev Soni</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="convolution-nueral-network-for-classification-of-charts">Convolution Nueral Network For Classification Of Charts</h1>
+<h2 id="task-1--2--image-sorting--result-of-trained-models">Task 1 &amp; 2 : Image Sorting &amp; Result of Trained Models</h2>
+<h3 id="image-sorting">Image sorting</h3>
+<p>All charts transfered to Train/(spesific folder) as their labels and randomly 20% images transfered into validation folder. Also, images separated in test/(particular) folder, checkout mentioned structure.     <br>
+This will make labling process much easier with the help of ImageDataGenerator function.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp 400w,
+               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_2845b673fd9277b5acb6410cf13003f6.webp 760w,
+               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp"
+               width="307"
+               height="443"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+<h3 id="model-results">Model Results</h3>
+<p>Both Models trained for 10 epochs.     <br>
+Model 1: 2, 2D Conl layers with 16- 3X3 &amp; 32-3X3 filters, each has a MaxPooling layer of 2X2, got 97% accuracy for validation set, and 96% for test set. <a href="https://github.com/devsonni/Chart-Classification-Using-CNN----Keras/blob/main/charts/16-32-Arch-V1.h5" target="_blank" rel="noopener">Saved Model</a>, <a href="https://github.com/devsonni/Chart-Classification-Using-CNN----Keras/blob/main/charts/ConvolNN_V1.py" target="_blank" rel="noopener">Script</a></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp 400w,
+               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_24f3f1c4df638624b37741a5cd1c674b.webp 760w,
+               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp"
+               width="760"
+               height="395"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp 400w,
+               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_90d8e978e4a672a5c174a83de56478bb.webp 760w,
+               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp"
+               width="760"
+               height="401"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp 400w,
+               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_471202104038bf8538b07a0686c07bb8.webp 760w,
+               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp"
+               width="760"
+               height="657"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<p>Model 2: 2, 2D Conl layers with 32-3X3 &amp; 64-3X3 filters, each has a MaxPooling layer of 2X2, got 98% accuracy for validation set, and 98% for test set. <a href="https://github.com/devsonni/Chart-Classification-Using-CNN----Keras/blob/main/charts/32-64-Arch-V1.h5" target="_blank" rel="noopener">Saved Model</a>, <a href="https://github.com/devsonni/Chart-Classification-Using-CNN----Keras/blob/main/charts/ConvolNN_V2.py" target="_blank" rel="noopener">Script</a></p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp 400w,
+               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ec7b281e912e77274d77be8a2f9d0918.webp 760w,
+               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp"
+               width="760"
+               height="396"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp 400w,
+               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_c88f3be26401f635a0e272a9059771a8.webp 760w,
+               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp"
+               width="760"
+               height="398"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp 400w,
+               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_92a622ab920f3ebaa28f87628697a686.webp 760w,
+               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp"
+               width="760"
+               height="653"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<p>CNNs works same as humas brains they did mistake in recognizing doted line and line, I think that was most difficult for them.</p>
+<h2 id="task-3-fine-tuning-of-pretrained-models">Task 3: Fine Tuning of Pretrained Models</h2>
+<p>Updated VGG16 pretrained award winning model. Where, I changed last 1000 layer prediction to 5 prediction and froze all the weights insted of last layer&rsquo;s weights and trained model for just 5 epochs, and got 100% accuracy for both validation and test sets.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp 400w,
+               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_3b8295cec51f6a554b5ef8e1e98a4487.webp 760w,
+               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp"
+               width="760"
+               height="396"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp 400w,
+               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_e8d8ec82ee3e7fee2ca12bb27a813e22.webp 760w,
+               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp"
+               width="760"
+               height="398"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp 400w,
+               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_9de80c1e8583674021b0cba6118f0e24.webp 760w,
+               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp"
+               width="760"
+               height="675"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<h2 id="task-4-gradcam">Task 4: GradCAM</h2>
+<h3 id="dot-line">Dot Line</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp 400w,
+               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_a3d2e65acd17c117f1d6bbe5c06dd9a4.webp 760w,
+               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp"
+               width="760"
+               height="244"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp 400w,
+               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_8be1e41046fd6e79f807198bc2683878.webp 760w,
+               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp"
+               width="760"
+               height="246"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp 400w,
+               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_d53478f9894498266485a38d044a636a.webp 760w,
+               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp"
+               width="760"
+               height="239"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<h3 id="line">Line</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp 400w,
+               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1096fab018bcabd9f1392b5cc2aaac45.webp 760w,
+               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp"
+               width="760"
+               height="239"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp 400w,
+               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_fa2665dcb0bb18b57b7ad1e3ef91cfbb.webp 760w,
+               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp"
+               width="760"
+               height="241"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp 400w,
+               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_4b6da6f1da2dee9ad3b47d3eaae46738.webp 760w,
+               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp"
+               width="760"
+               height="243"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<h3 id="vertical-bar">Vertical Bar</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp 400w,
+               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_53466474c156bcf6105ce58889bdc415.webp 760w,
+               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp"
+               width="760"
+               height="239"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp 400w,
+               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_5480ebfef373a01d15ff9fa57c0d529a.webp 760w,
+               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp"
+               width="760"
+               height="236"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp 400w,
+               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_56242433c8d5b73770eb6ec7ad3f2066.webp 760w,
+               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp"
+               width="760"
+               height="242"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<h3 id="horizontal-bar">Horizontal Bar</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp 400w,
+               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_af71071040b8e5d79a77de72dac8a3e6.webp 760w,
+               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp"
+               width="760"
+               height="238"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp 400w,
+               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_c6067d5b10efd26b53b56c85bc2cdaa9.webp 760w,
+               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp"
+               width="760"
+               height="239"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp 400w,
+               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_d9c8828837a9a1ad270f85b01237487f.webp 760w,
+               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp"
+               width="760"
+               height="237"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+<h3 id="pie">Pie</h3>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp 400w,
+               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_5c8c5ec63e5135cdee48d6ca833bf62a.webp 760w,
+               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp"
+               width="760"
+               height="238"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp 400w,
+               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_a6d6b3e04f87dfdc193b9c1fc914df80.webp 760w,
+               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp"
+               width="760"
+               height="242"
+               loading="lazy" data-zoomable /></div>
+  </div></figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="" srcset="
+               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp 400w,
+               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_f18e27f77a63f7579013603d0b4b0648.webp 760w,
+               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+               src="/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp"
+               width="760"
+               height="248"
+               loading="lazy" data-zoomable /></div>
+  </div></figure></p>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/computer-vision/">Computer Vision</a>
+  
+  <a class="badge badge-light" href="/tag/artificial-intelligence/">Artificial Intelligence</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.devsonni.com/project/charts-classifier-using-cnn/&amp;text=Charts%20Classifier%20Using%20CNN" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.devsonni.com/project/charts-classifier-using-cnn/&amp;t=Charts%20Classifier%20Using%20CNN" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Charts%20Classifier%20Using%20CNN&amp;body=https://www.devsonni.com/project/charts-classifier-using-cnn/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.devsonni.com/project/charts-classifier-using-cnn/&amp;title=Charts%20Classifier%20Using%20CNN" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Charts%20Classifier%20Using%20CNN%20https://www.devsonni.com/project/charts-classifier-using-cnn/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.devsonni.com/project/charts-classifier-using-cnn/&amp;title=Charts%20Classifier%20Using%20CNN" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://www.devsonni.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar.jpg_hub5f686cb2911e0ae379c70dcf353a995_136081_270x270_fill_lanczos_center_3.png" alt="Dev Soni"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.devsonni.com/">Dev Soni</a></h5>
+      <h6 class="card-subtitle">Mechatronics Engineer</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/devsonni" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;user=v2yCu80AAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F5Ipj6zbjyyc_Ga3XoOia8XhwhWaLQ4mIX6sNTyezHmwviCRmN1sPOvGERUT0Ou2mgXe8UMxJ2bS_-iU8rXNvoUTNNM6EUKdRZfgRmmDxl3Hwiy5J8" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/devsonni" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/dev-soni-880033184/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © Dev Soni 2022.
+  </p>
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.ab2f2890dbe3e2e83579366d3d6e8fd9.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>
