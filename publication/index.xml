@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | DS</title>
-    <link>devsonni.github.io/publication/</link>
-      <atom:link href="devsonni.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/publication/</link>
+      <atom:link href="https://www.devsonni.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>devsonni.github.io/publication/</link>
+      <link>https://www.devsonni.com/publication/</link>
     </image>
     
     <item>
       <title>Learning-based NMPC Framework for Car Racing Cinematography using Fixed-Wing UAV</title>
-      <link>devsonni.github.io/publication/example/</link>
+      <link>https://www.devsonni.com/publication/example/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>devsonni.github.io/publication/example/</guid>
+      <guid>https://www.devsonni.com/publication/example/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;A learning-based nonlinear model predictive control (L-NMPC) scheme is designed for the iterative task of filming a race-car using a gimbaled camera mounted on a fixed-wing autonomous aerial vehicle (AAV). The controller is capable of avoiding the environmental obstacles that block the path of the AAV. It also ensures that the car always lies in the field of view (FOV) of the camera while satisfying the control and state constraints. The controller is able to learn from the previous iterations and improve the tracking performance with the help of reinforcement learning (RL). Simulation results are given to demonstrate the efficacy of the proposed learning-based control scheme.&lt;/p&gt;
 </description>

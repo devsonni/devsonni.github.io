@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intelligent System | DS</title>
-    <link>devsonni.github.io/tag/intelligent-system/</link>
-      <atom:link href="devsonni.github.io/tag/intelligent-system/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.devsonni.com/tag/intelligent-system/</link>
+      <atom:link href="https://www.devsonni.com/tag/intelligent-system/index.xml" rel="self" type="application/rss+xml" />
     <description>Intelligent System</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Intelligent System</title>
-      <link>devsonni.github.io/tag/intelligent-system/</link>
+      <link>https://www.devsonni.com/tag/intelligent-system/</link>
     </image>
     
     <item>
       <title>Nonlinear Model Predictive Controller for Target Tracking</title>
-      <link>devsonni.github.io/project/nonlinear-model-predictive-controller-for-target-tracking/</link>
+      <link>https://www.devsonni.com/project/nonlinear-model-predictive-controller-for-target-tracking/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>devsonni.github.io/project/nonlinear-model-predictive-controller-for-target-tracking/</guid>
+      <guid>https://www.devsonni.com/project/nonlinear-model-predictive-controller-for-target-tracking/</guid>
       <description>&lt;h1 id=&#34;nmpc-implementation-&#34;&gt;NMPC Implementation 🕹️&lt;/h1&gt;
 &lt;p&gt;👉 For simple intiution Model predictive control uses the system model to do prediction of future states of system for some predicted optimal inputs in prediction horizon, and applys only one input and does the same process again to compansate the unmeasured noise or disturbance in system.   &lt;br&gt;
 👉 In this instance our system is unmaned arieal vehicle and it&amp;rsquo;s following the target which is mobile vehicle.    &lt;br&gt;
@@ -45,10 +45,10 @@
 &lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
-               /devsonni.github.io/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp 400w,
-               /devsonni.github.io/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_be065c0fc844398d12e06059df78c15d.webp 760w,
-               /devsonni.github.io/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp 400w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_be065c0fc844398d12e06059df78c15d.webp 760w,
+               /media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/TrackWTG1_hu54b3dc2150c925dda6e3ad278b092056_101475_9e8a8295906ff78d9692eac254f03aa3.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -74,10 +74,10 @@
 &lt;figure  id=&#34;figure-uav-traking-target-without-gimbal&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;UAV Traking Target without Gimbal&#34; srcset=&#34;
-               /devsonni.github.io/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp 400w,
-               /devsonni.github.io/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_749a6404ce8d70ac41d6cf653a83dc6f.webp 760w,
-               /devsonni.github.io/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp 400w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_749a6404ce8d70ac41d6cf653a83dc6f.webp 760w,
+               /media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/TrackTWG_hu54b3dc2150c925dda6e3ad278b092056_97480_f2b8ce5b8860a06d37ed839c83b21756.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -105,10 +105,10 @@
 &lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
-               /devsonni.github.io/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp 400w,
-               /devsonni.github.io/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_c6675bed51fa786ae43e68afe245c802.webp 760w,
-               /devsonni.github.io/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp 400w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_c6675bed51fa786ae43e68afe245c802.webp 760w,
+               /media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack6_hu54b3dc2150c925dda6e3ad278b092056_100469_526d4ed11d58aa762d0227cab5056e54.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -134,10 +134,10 @@
 &lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
-               /devsonni.github.io/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp 400w,
-               /devsonni.github.io/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_32ac4668bb53c71455c4a4beaaf61051.webp 760w,
-               /devsonni.github.io/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp 400w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_32ac4668bb53c71455c4a4beaaf61051.webp 760w,
+               /media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack5_hu54b3dc2150c925dda6e3ad278b092056_100024_f0f8fb82a039292acd3f2f13cec49584.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -163,10 +163,10 @@
 &lt;figure  id=&#34;figure-smooth-tracking-with-gimbal&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Smooth Tracking with Gimbal&#34; srcset=&#34;
-               /devsonni.github.io/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp 400w,
-               /devsonni.github.io/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_dc249dfd78c6e8ab03b6a548e608f93b.webp 760w,
-               /devsonni.github.io/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp 400w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_dc249dfd78c6e8ab03b6a548e608f93b.webp 760w,
+               /media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/TargetTrack3_hu54b3dc2150c925dda6e3ad278b092056_81586_791bf07d98f1151da4e35218f0b8ce7b.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -193,10 +193,10 @@
 &lt;figure  id=&#34;figure-without-obstacle-avoidance-uav-is-colliding-with-obstacles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Without Obstacle Avoidance (UAV is Colliding with Obstacles)&#34; srcset=&#34;
-               /devsonni.github.io/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp 400w,
-               /devsonni.github.io/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_9c98ed885bc682939a61d0553c141f96.webp 760w,
-               /devsonni.github.io/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp 400w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_9c98ed885bc682939a61d0553c141f96.webp 760w,
+               /media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/Obstacle2_hu54b3dc2150c925dda6e3ad278b092056_108257_952f74ab80ad7833642816e1659dc3b9.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -223,10 +223,10 @@
 &lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
-               /devsonni.github.io/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp 400w,
-               /devsonni.github.io/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_3486d17a05b4304ad75e6eea88797640.webp 760w,
-               /devsonni.github.io/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp 400w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_3486d17a05b4304ad75e6eea88797640.webp 760w,
+               /media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/Obstacle3_hu54b3dc2150c925dda6e3ad278b092056_118542_e397158b9fbfc80157c2dfc29664554b.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -252,10 +252,10 @@
 &lt;figure  id=&#34;figure-with-obstacle-avoidance-avoiding-collusion-with-obstacles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;With Obstacle Avoidance (Avoiding Collusion with Obstacles)&#34; srcset=&#34;
-               /devsonni.github.io/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp 400w,
-               /devsonni.github.io/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1d98664fe8dbcda45ca7ccef8aa6130f.webp 760w,
-               /devsonni.github.io/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;devsonni.github.io/devsonni.github.io/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp 400w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1d98664fe8dbcda45ca7ccef8aa6130f.webp 760w,
+               /media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://www.devsonni.com/media/obstacle5_hu54b3dc2150c925dda6e3ad278b092056_116762_eb006ebb749444f25bb79255e347a584.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
