@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | DS</title>
-    <link>https://www.devsonni.com/publication_types/</link>
-      <atom:link href="https://www.devsonni.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>devsonni.github.io/publication_types/</link>
+      <atom:link href="devsonni.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Publication_types</title>
-      <link>https://www.devsonni.com/publication_types/</link>
+      <link>devsonni.github.io/publication_types/</link>
     </image>
     
   </channel>

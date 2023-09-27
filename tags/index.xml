@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | DS</title>
-    <link>https://www.devsonni.com/tags/</link>
-      <atom:link href="https://www.devsonni.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>devsonni.github.io/tags/</link>
+      <atom:link href="devsonni.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Tags</title>
-      <link>https://www.devsonni.com/tags/</link>
+      <link>devsonni.github.io/tags/</link>
     </image>
     
   </channel>

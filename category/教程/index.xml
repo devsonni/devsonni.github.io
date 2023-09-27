@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教程 | DS</title>
-    <link>https://www.devsonni.com/category/%E6%95%99%E7%A8%8B/</link>
-      <atom:link href="https://www.devsonni.com/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <link>devsonni.github.io/category/%E6%95%99%E7%A8%8B/</link>
+      <atom:link href="devsonni.github.io/category/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <description>教程</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>教程</title>
-      <link>https://www.devsonni.com/category/%E6%95%99%E7%A8%8B/</link>
+      <link>devsonni.github.io/category/%E6%95%99%E7%A8%8B/</link>
     </image>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://www.devsonni.com/post/getting-started/</link>
+      <link>devsonni.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://www.devsonni.com/post/getting-started/</guid>
+      <guid>devsonni.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;

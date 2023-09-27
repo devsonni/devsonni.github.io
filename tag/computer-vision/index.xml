@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computer Vision | DS</title>
-    <link>https://www.devsonni.com/tag/computer-vision/</link>
-      <atom:link href="https://www.devsonni.com/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>devsonni.github.io/tag/computer-vision/</link>
+      <atom:link href="devsonni.github.io/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Vision</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.devsonni.com/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
+      <url>/devsonni.github.io/media/icon_hu0ad2ec26c648cdff5b5d60892684b06a_573240_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Vision</title>
-      <link>https://www.devsonni.com/tag/computer-vision/</link>
+      <link>devsonni.github.io/tag/computer-vision/</link>
     </image>
     
     <item>
       <title>Charts Classifier Using CNN</title>
-      <link>https://www.devsonni.com/project/charts-classifier-using-cnn/</link>
+      <link>devsonni.github.io/project/charts-classifier-using-cnn/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.devsonni.com/project/charts-classifier-using-cnn/</guid>
+      <guid>devsonni.github.io/project/charts-classifier-using-cnn/</guid>
       <description>&lt;h1 id=&#34;convolution-nueral-network-for-classification-of-charts&#34;&gt;Convolution Nueral Network For Classification Of Charts&lt;/h1&gt;
 &lt;h2 id=&#34;task-1--2--image-sorting--result-of-trained-models&#34;&gt;Task 1 &amp;amp; 2 : Image Sorting &amp;amp; Result of Trained Models&lt;/h2&gt;
 &lt;h3 id=&#34;image-sorting&#34;&gt;Image sorting&lt;/h3&gt;
@@ -41,10 +41,10 @@ This will make labling process much easier with the help of ImageDataGenerator f
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp 400w,
-               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_2845b673fd9277b5acb6410cf13003f6.webp 760w,
-               /media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp&#34;
+               /devsonni.github.io/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp 400w,
+               /devsonni.github.io/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_2845b673fd9277b5acb6410cf13003f6.webp 760w,
+               /devsonni.github.io/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Folder%20Structure_hu83610af506ed5af71b4998a6a3e48c62_79077_7c89a1ca559608aa1ddc4d77b04b1a08.webp&#34;
                width=&#34;307&#34;
                height=&#34;443&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -71,10 +71,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp 400w,
-               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_24f3f1c4df638624b37741a5cd1c674b.webp 760w,
-               /media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp&#34;
+               /devsonni.github.io/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp 400w,
+               /devsonni.github.io/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_24f3f1c4df638624b37741a5cd1c674b.webp 760w,
+               /devsonni.github.io/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Accuracy1_huef759dc5bd93041cd4e144fb1afc404f_50960_bd452d07d88ced75d12797cbf1d8b5e0.webp&#34;
                width=&#34;760&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -98,10 +98,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp 400w,
-               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_90d8e978e4a672a5c174a83de56478bb.webp 760w,
-               /media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp&#34;
+               /devsonni.github.io/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp 400w,
+               /devsonni.github.io/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_90d8e978e4a672a5c174a83de56478bb.webp 760w,
+               /devsonni.github.io/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Loss1_hubb9c0b17a7c8e36183dbc8f541c3aca9_42198_5ddd5f4aefeb410892f4bd6835e3e683.webp&#34;
                width=&#34;760&#34;
                height=&#34;401&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -125,10 +125,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp 400w,
-               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_471202104038bf8538b07a0686c07bb8.webp 760w,
-               /media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp&#34;
+               /devsonni.github.io/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp 400w,
+               /devsonni.github.io/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_471202104038bf8538b07a0686c07bb8.webp 760w,
+               /devsonni.github.io/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Confusion1_hue29e0ba056332d3eb3b71fa70cc89c06_45138_dd6b75baec494372bd42680da3f22347.webp&#34;
                width=&#34;760&#34;
                height=&#34;657&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -153,10 +153,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp 400w,
-               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ec7b281e912e77274d77be8a2f9d0918.webp 760w,
-               /media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp&#34;
+               /devsonni.github.io/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp 400w,
+               /devsonni.github.io/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ec7b281e912e77274d77be8a2f9d0918.webp 760w,
+               /devsonni.github.io/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Accuracy2_hue7e03017955dd137b0dc1c3fe4afa8f5_47881_ca417e965b6dd9aed4279e62657e4b9d.webp&#34;
                width=&#34;760&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -180,10 +180,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp 400w,
-               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_c88f3be26401f635a0e272a9059771a8.webp 760w,
-               /media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp&#34;
+               /devsonni.github.io/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp 400w,
+               /devsonni.github.io/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_c88f3be26401f635a0e272a9059771a8.webp 760w,
+               /devsonni.github.io/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Loss2_hue922d6833c96bb14804d84d45083685b_41026_0c66f728ea77e2629cebf99ebb8b0651.webp&#34;
                width=&#34;760&#34;
                height=&#34;398&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -207,10 +207,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp 400w,
-               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_92a622ab920f3ebaa28f87628697a686.webp 760w,
-               /media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp&#34;
+               /devsonni.github.io/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp 400w,
+               /devsonni.github.io/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_92a622ab920f3ebaa28f87628697a686.webp 760w,
+               /devsonni.github.io/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Confusion2_huaa6c4bacf1ebf9309ac02741b68ec794_46334_1108bf69373eb8c49531ec79ba6f78f8.webp&#34;
                width=&#34;760&#34;
                height=&#34;653&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -237,10 +237,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp 400w,
-               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_3b8295cec51f6a554b5ef8e1e98a4487.webp 760w,
-               /media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp&#34;
+               /devsonni.github.io/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp 400w,
+               /devsonni.github.io/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_3b8295cec51f6a554b5ef8e1e98a4487.webp 760w,
+               /devsonni.github.io/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Accuracy3_hu74022f22905d56e8fff6b04d429119ae_49661_1747f42025dacca6312ff6d7342b09a8.webp&#34;
                width=&#34;760&#34;
                height=&#34;396&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -264,10 +264,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp 400w,
-               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_e8d8ec82ee3e7fee2ca12bb27a813e22.webp 760w,
-               /media/Loss3_hue0256db4238768a3040f92434434274c_46506_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp&#34;
+               /devsonni.github.io/media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp 400w,
+               /devsonni.github.io/media/Loss3_hue0256db4238768a3040f92434434274c_46506_e8d8ec82ee3e7fee2ca12bb27a813e22.webp 760w,
+               /devsonni.github.io/media/Loss3_hue0256db4238768a3040f92434434274c_46506_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Loss3_hue0256db4238768a3040f92434434274c_46506_40e2a1384db6b95b99a78154672513df.webp&#34;
                width=&#34;760&#34;
                height=&#34;398&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -291,10 +291,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp 400w,
-               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_9de80c1e8583674021b0cba6118f0e24.webp 760w,
-               /media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp&#34;
+               /devsonni.github.io/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp 400w,
+               /devsonni.github.io/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_9de80c1e8583674021b0cba6118f0e24.webp 760w,
+               /devsonni.github.io/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Confusion3_hue5daa407a272af977b7c11933ed055fb_45247_a5ef50aca0a949a3a37689e5394dac60.webp&#34;
                width=&#34;760&#34;
                height=&#34;675&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -320,10 +320,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp 400w,
-               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_a3d2e65acd17c117f1d6bbe5c06dd9a4.webp 760w,
-               /media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp&#34;
+               /devsonni.github.io/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp 400w,
+               /devsonni.github.io/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_a3d2e65acd17c117f1d6bbe5c06dd9a4.webp 760w,
+               /devsonni.github.io/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/D%20Line%201_hu21e632bdcd18cffc2144cceb74d011c8_68045_b21102a83ad6396ce3399ff1dee6b99d.webp&#34;
                width=&#34;760&#34;
                height=&#34;244&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -347,10 +347,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp 400w,
-               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_8be1e41046fd6e79f807198bc2683878.webp 760w,
-               /media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp&#34;
+               /devsonni.github.io/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp 400w,
+               /devsonni.github.io/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_8be1e41046fd6e79f807198bc2683878.webp 760w,
+               /devsonni.github.io/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/D%20Line%202_huc7d04251d4397eb345c9ccf396957e33_88375_92cecfbd65fcccd0b3a646a5623b3656.webp&#34;
                width=&#34;760&#34;
                height=&#34;246&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -374,10 +374,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp 400w,
-               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_d53478f9894498266485a38d044a636a.webp 760w,
-               /media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp&#34;
+               /devsonni.github.io/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp 400w,
+               /devsonni.github.io/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_d53478f9894498266485a38d044a636a.webp 760w,
+               /devsonni.github.io/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/D%20Line%203_hu34f36c1d9b9d5b463fc57d5a639993f6_71702_2ee95792c73d2a956b24bc3ced2f3544.webp&#34;
                width=&#34;760&#34;
                height=&#34;239&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -402,10 +402,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp 400w,
-               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1096fab018bcabd9f1392b5cc2aaac45.webp 760w,
-               /media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp&#34;
+               /devsonni.github.io/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp 400w,
+               /devsonni.github.io/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1096fab018bcabd9f1392b5cc2aaac45.webp 760w,
+               /devsonni.github.io/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Line%201_hu274d45961e84ea7140dc4ab1e15b74fd_73319_a4c15350c1c79dee3189cc25962e4b57.webp&#34;
                width=&#34;760&#34;
                height=&#34;239&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -429,10 +429,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp 400w,
-               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_fa2665dcb0bb18b57b7ad1e3ef91cfbb.webp 760w,
-               /media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp&#34;
+               /devsonni.github.io/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp 400w,
+               /devsonni.github.io/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_fa2665dcb0bb18b57b7ad1e3ef91cfbb.webp 760w,
+               /devsonni.github.io/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Line%202_hu8ac77051f8b2fa478e6c06e730654b03_69979_ff272514249af8940d03adaa1ee7efa0.webp&#34;
                width=&#34;760&#34;
                height=&#34;241&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -456,10 +456,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp 400w,
-               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_4b6da6f1da2dee9ad3b47d3eaae46738.webp 760w,
-               /media/Line%203_hu052146720d288e0d696022892d7cf558_75000_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp&#34;
+               /devsonni.github.io/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp 400w,
+               /devsonni.github.io/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_4b6da6f1da2dee9ad3b47d3eaae46738.webp 760w,
+               /devsonni.github.io/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Line%203_hu052146720d288e0d696022892d7cf558_75000_2fc484e8b8779b26c2cdfff6cf7ae295.webp&#34;
                width=&#34;760&#34;
                height=&#34;243&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -484,10 +484,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp 400w,
-               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_53466474c156bcf6105ce58889bdc415.webp 760w,
-               /media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp&#34;
+               /devsonni.github.io/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp 400w,
+               /devsonni.github.io/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_53466474c156bcf6105ce58889bdc415.webp 760w,
+               /devsonni.github.io/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/V%20Bar%201_hu1e079bef11ffdadde0da02423072bdd6_82474_15487b34ff859db1cf6cf61d35663b64.webp&#34;
                width=&#34;760&#34;
                height=&#34;239&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -511,10 +511,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp 400w,
-               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_5480ebfef373a01d15ff9fa57c0d529a.webp 760w,
-               /media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp&#34;
+               /devsonni.github.io/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp 400w,
+               /devsonni.github.io/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_5480ebfef373a01d15ff9fa57c0d529a.webp 760w,
+               /devsonni.github.io/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/V%20Bar%202_hud72bd4f19840e4a4f228732a593bb281_75080_83de85c9b92c8e9862b754c8bf6d2ac2.webp&#34;
                width=&#34;760&#34;
                height=&#34;236&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -538,10 +538,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp 400w,
-               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_56242433c8d5b73770eb6ec7ad3f2066.webp 760w,
-               /media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp&#34;
+               /devsonni.github.io/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp 400w,
+               /devsonni.github.io/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_56242433c8d5b73770eb6ec7ad3f2066.webp 760w,
+               /devsonni.github.io/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/V%20Bar%203_hue19a8f5660d15ca02fed093b322827f5_78602_8370f5b081343fa28b964ed32d7abb56.webp&#34;
                width=&#34;760&#34;
                height=&#34;242&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -566,10 +566,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp 400w,
-               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_af71071040b8e5d79a77de72dac8a3e6.webp 760w,
-               /media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp&#34;
+               /devsonni.github.io/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp 400w,
+               /devsonni.github.io/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_af71071040b8e5d79a77de72dac8a3e6.webp 760w,
+               /devsonni.github.io/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/H%20Bar%201_hub6dad0b3be37fc7d102358726acb8a17_81783_d67b8ebe0e1e8c7749fc5ea62ae5d42d.webp&#34;
                width=&#34;760&#34;
                height=&#34;238&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -593,10 +593,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp 400w,
-               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_c6067d5b10efd26b53b56c85bc2cdaa9.webp 760w,
-               /media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp&#34;
+               /devsonni.github.io/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp 400w,
+               /devsonni.github.io/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_c6067d5b10efd26b53b56c85bc2cdaa9.webp 760w,
+               /devsonni.github.io/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/H%20Bar%202_huf34fa65a0560417bc2922daec375a6af_77823_a0ce36964a43609bef5584dd9f42af07.webp&#34;
                width=&#34;760&#34;
                height=&#34;239&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -620,10 +620,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp 400w,
-               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_d9c8828837a9a1ad270f85b01237487f.webp 760w,
-               /media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp&#34;
+               /devsonni.github.io/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp 400w,
+               /devsonni.github.io/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_d9c8828837a9a1ad270f85b01237487f.webp 760w,
+               /devsonni.github.io/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/H%20Bar%203_hu62a6f202845bd66bf790f769fc69e1b8_82277_cff4aa127005091fbb07a270e00dc741.webp&#34;
                width=&#34;760&#34;
                height=&#34;237&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -648,10 +648,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp 400w,
-               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_5c8c5ec63e5135cdee48d6ca833bf62a.webp 760w,
-               /media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp&#34;
+               /devsonni.github.io/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp 400w,
+               /devsonni.github.io/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_5c8c5ec63e5135cdee48d6ca833bf62a.webp 760w,
+               /devsonni.github.io/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Pie%201_hu958b3490ede1cc855399bbb92cb85833_64882_7dae281d1c40780d9b05dd8f9cbdb84f.webp&#34;
                width=&#34;760&#34;
                height=&#34;238&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -675,10 +675,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp 400w,
-               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_a6d6b3e04f87dfdc193b9c1fc914df80.webp 760w,
-               /media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp&#34;
+               /devsonni.github.io/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp 400w,
+               /devsonni.github.io/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_a6d6b3e04f87dfdc193b9c1fc914df80.webp 760w,
+               /devsonni.github.io/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Pie%202_hu8f8184b88d7ecfbff252fa45886c99ab_71287_11d8f4da30c6115c87684f1b0fc14915.webp&#34;
                width=&#34;760&#34;
                height=&#34;242&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -702,10 +702,10 @@ Model 1: 2, 2D Conl layers with 16- 3X3 &amp;amp; 32-3X3 filters, each has a Max
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp 400w,
-               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_f18e27f77a63f7579013603d0b4b0648.webp 760w,
-               /media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;https://www.devsonni.com/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp&#34;
+               /devsonni.github.io/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp 400w,
+               /devsonni.github.io/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_f18e27f77a63f7579013603d0b4b0648.webp 760w,
+               /devsonni.github.io/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;devsonni.github.io/devsonni.github.io/media/Pie%203_huef42fc2ef0014c8d6c53e1a5b74ec9c2_72498_a2b9899c8b6236a1586a0243a03d4021.webp&#34;
                width=&#34;760&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
